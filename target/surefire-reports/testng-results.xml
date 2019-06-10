@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-06-07T19:58:19Z" name="Suite" finished-at="2019-06-07T19:58:31Z" duration-ms="11525">
+    <groups>
+    </groups>
+    <test started-at="2019-06-07T19:58:19Z" name="Test" finished-at="2019-06-07T19:58:31Z" duration-ms="11525">
+      <class name="Ma.RestAPITest">
+        <test-method signature="DeleteTwitter()[pri:0, instance:Ma.RestAPITest@4b2bac3f]" started-at="2019-06-07T19:58:19Z" name="DeleteTwitter" finished-at="2019-06-07T19:58:19Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteTwitter -->
+        <test-method signature="PostJIRA()[pri:0, instance:Ma.RestAPITest@4b2bac3f]" started-at="2019-06-07T19:58:19Z" name="PostJIRA" finished-at="2019-06-07T19:58:19Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostJIRA -->
+      </class> <!-- Ma.RestAPITest -->
+      <class name="Ma.SeleniumTest">
+        <test-method signature="BrowserTest()[pri:0, instance:Ma.SeleniumTest@4e08711f]" started-at="2019-06-07T19:58:19Z" name="BrowserTest" finished-at="2019-06-07T19:58:19Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTest -->
+        <test-method signature="SecondBrowserTest()[pri:0, instance:Ma.SeleniumTest@4e08711f]" started-at="2019-06-07T19:58:19Z" name="SecondBrowserTest" finished-at="2019-06-07T19:58:19Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondBrowserTest -->
+      </class> <!-- Ma.SeleniumTest -->
+      <class name="Ma.AppiumTest">
+        <test-method signature="NativeAndroid()[pri:0, instance:Ma.AppiumTest@bcec361]" started-at="2019-06-07T19:58:19Z" name="NativeAndroid" finished-at="2019-06-07T19:58:19Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NativeAndroid -->
+        <test-method signature="NativeiOS()[pri:0, instance:Ma.AppiumTest@bcec361]" started-at="2019-06-07T19:58:19Z" name="NativeiOS" finished-at="2019-06-07T19:58:19Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NativeiOS -->
+      </class> <!-- Ma.AppiumTest -->
+      <class name="Ma.SearchTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Ma.SearchTest@26794848]" started-at="2019-06-07T19:58:19Z" name="initialize" finished-at="2019-06-07T19:58:29Z" duration-ms="9568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Search()[pri:0, instance:Ma.SearchTest@26794848]" started-at="2019-06-07T19:58:29Z" name="Search" finished-at="2019-06-07T19:58:29Z" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Ma.SearchTest@26794848]" started-at="2019-06-07T19:58:29Z" name="teardown" finished-at="2019-06-07T19:58:31Z" duration-ms="1499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Ma.SearchTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

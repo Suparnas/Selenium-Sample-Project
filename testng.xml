@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Ma.RestAPITest"/>
+       <class name="Ma.SeleniumTest"/>
+       <class name="Ma.AppiumTest"/>
+       <class name="Ma.SearchTest"/>
+       <class name="Ma.MovelistTest"/>
+  <!--     
+      
+      <class name="Ma.phpTravels"/>
+      <class name="Ma.SoftAssertion"/>
+      <class name="Ma.FormTest"/>
+      <class name="Ma.LoginTest"/>
+      
+     
+      <class name="Ma.SortingTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

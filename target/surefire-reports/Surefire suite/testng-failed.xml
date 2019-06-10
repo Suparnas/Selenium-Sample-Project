@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="Ma.SortingTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+          <include name="Sorting"/>
+        </methods>
+      </class> <!-- Ma.SortingTest -->
+      <class name="Ma.LoginTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="Login"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Ma.LoginTest -->
+      <class name="Ma.SearchTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="Search"/>
+        </methods>
+      </class> <!-- Ma.SearchTest -->
+      <class name="Ma.FormTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Ma.FormTest -->
+      <class name="Ma.MovelistTest">
+        <methods>
+          <include name="Movelist"/>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Ma.MovelistTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
