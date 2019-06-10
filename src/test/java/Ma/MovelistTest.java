@@ -62,10 +62,9 @@ public class MovelistTest extends Base
 	                sb.append("\t");
 	            }
 			 Log.info("--- Search Results in Row ---" );
-     		 Listeners.test.log(LogStatus.INFO,"--- Search Results in Row ---" );
+     		 //Listeners.test.log(LogStatus.INFO,"--- Search Results in Row ---" );
 			 Log.info(b);
-			 Listeners.test.log(LogStatus.INFO,sb.toString());
-			 
+			 //Listeners.test.log(LogStatus.INFO,sb.toString());
 			 //Listeners.test.log(LogStatus.INFO,b);
 			 
 			  //Checking if the results are correct irrespective of the case

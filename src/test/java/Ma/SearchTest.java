@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 import com.relevantcodes.extentreports.LogStatus;
 
 import org.testng.AssertJUnit;
-//import com.relevantcodes.extentreports.LogStatus;
 
 import java.io.IOException;
 import org.apache.log4j.LogManager;
@@ -29,6 +28,7 @@ public class SearchTest extends Base
 	public void initialize() throws IOException {
 		driver = initializeDriver();
 		driver.get(prop.getProperty("url2"));
+		
 	}
 		
 	
@@ -47,16 +47,21 @@ public class SearchTest extends Base
 		    int s = P.rowvalue().size();
 		    //defining Array
 		    String[][] p = new String [s][s];
+		    Listeners.test.log(LogStatus.INFO,"--- Results shown Search Results in Row ");    
+		    
+		    
+		    
+		    
 		    
 		    //Storing values to a List
 		    for (int i=1;i<=c;i++) {
 		       
 			   for(int j=0;j<s;j++) {
 			  p[i][j]= P.rowvalue().get(j).getText();
-			  Listeners.test.log(LogStatus.INFO,"--- Results shown Search Results in Row " + (j+1) + "---");
-			  Listeners.test.log(LogStatus.INFO,"Results shown" + p[i][j]);
+			  //Listeners.test.log(LogStatus.INFO,"--- Results shown Search Results in Row " + (j+1) + "---");
+			  //Listeners.test.log(LogStatus.INFO,"Results shown" + p[i][j]);
 			  Log.info(p[i][j]);
-			  Listeners.test.log(LogStatus.INFO, p[i][j]);
+			  //Listeners.test.log(LogStatus.INFO, p[i][j]);
 			  //Checking if the results are correct irrespective of the case
 			    AssertJUnit.assertTrue(p[i][j].toLowerCase().contains(prop.getProperty("search").toLowerCase()));
 			  if(i<c) {

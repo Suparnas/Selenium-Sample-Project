@@ -25,7 +25,6 @@ public class Listeners implements ITestListener {
 	 protected static ExtentReports reports;
 	 public static ExtentTest test;
 	 Base B = new Base();
-	
 	public void onTestStart(ITestResult result) {
 		 System.out.println("Test Started");
 		  test = reports.startTest(result.getMethod().getMethodName());

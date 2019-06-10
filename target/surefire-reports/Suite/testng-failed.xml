@@ -3,27 +3,6 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="Ma.FormTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="initialize"/>
-          <include name="Login"/>
-        </methods>
-      </class> <!-- Ma.FormTest -->
-      <class name="Ma.LoginTest">
-        <methods>
-          <include name="initialize"/>
-          <include name="Login"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- Ma.LoginTest -->
-      <class name="Ma.SortingTest">
-        <methods>
-          <include name="initialize"/>
-          <include name="teardown"/>
-          <include name="Sorting"/>
-        </methods>
-      </class> <!-- Ma.SortingTest -->
       <class name="Ma.SearchTest">
         <methods>
           <include name="teardown"/>
@@ -31,26 +10,6 @@
           <include name="Search"/>
         </methods>
       </class> <!-- Ma.SearchTest -->
-      <class name="Ma.phpTravels">
-        <methods>
-          <include name="initialize"/>
-          <include name="Login"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- Ma.phpTravels -->
-      <class name="Ma.MovelistTest">
-        <methods>
-          <include name="Movelist"/>
-          <include name="teardown"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- Ma.MovelistTest -->
-      <class name="Ma.SoftAssertion">
-        <methods>
-          <include name="hardAssert"/>
-          <include name="softAssert"/>
-        </methods>
-      </class> <!-- Ma.SoftAssertion -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
