@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: TestSuite
--------------------------------------------------------------------------------
-Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 23.625 s <<< FAILURE! - in TestSuite
-Search(Ma.SearchTest)  Time elapsed: 0.206 s  <<< FAILURE!
-java.lang.NullPointerException
-	at Ma.SearchTest.Search(SearchTest.java:51)
-
